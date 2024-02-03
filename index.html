@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h4><i class="fa-solid fa-house"></i> House</h4>
+        <div class="right_bx">
+          <ul>
+            <li><a href="#">Support</a></li>
+            <li>
+              <a href="#"><i class="fa-solid fa-globe"></i> Language</a>
+            </li>
+            <li><a href="#">List Your Property</a></li>
+          </ul>
+          <div class="account_bx">
+            <i class="fa-regular fa-square fa"></i>
+            <i class="fa-solid fa-user fa"></i>
+          </div>
+        </div>
+      </nav>
+      <div class="content">
+        <div class="cont_bx">
+          <h1>
+            Modern <br />
+            House
+          </h1>
+          <p>3 bedrooms, 1 kitchen, 2 bathrooms</p>
+          <div class="weather">
+            <h6>42 °C <span> Very Hot</span></h6>
+          </div>
+          <div class="btns_cont">
+            <i class="fa-solid fa-arrow-left" id="btn_left"></i>
+            <i class="fa-solid fa-arrow-right" id="btn_right"></i>
+          </div>
+          <div class="images_bx">
+            <div class="card">
+              <img src="images/2.jpg" alt="" />
+            </div>
+            <div class="card">
+              <img src="images/3.webp" alt="" />
+            </div>
+            <div class="card">
+              <img src="images/4.jpg" alt="" />
+              <h6 id="h6">+6</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="choose_bx">
+          <div class="stay_bx">
+            <button><i class="fa-solid fa-house"></i></button>
+            <button><i class="fa-solid fa-star"></i></button>
+            <button><i class="fa-solid fa-tv"></i></button>
+          </div>
+          <div class="select">
+            <div class="card">
+              <h5>City</h5>
+              <input type="text" value="Dubai" />
+              <input type="text" value="United Arab Emirates" />
+            </div>
+            <div class="card">
+              <h5>People</h5>
+              <input type="text" value="4 People" id="People" />
+              <button id="People_less">Less</button>
+              <button id="People_more">More</button>
+            </div>
+            <div class="card">
+              <div class="left_box">
+                <h5>CHECK IN</h5>
+                <div class="date">
+                  <h3 id="checkin_data">Fri , 26 jan</h3>
+                  <input type="date" name="" id="checkin"  />
+                  <i class="fa-solid fa-calendar-day"></i>
+                </div>
+                <button id="checkin_less">Less</button>
+                <button id="checkin_more">More</button>
+              </div>
+              <div class="right_box">
+                <h5>CHECK OUT</h5>
+                <div class="date">
+                  <h3 id="checkout_data">Sat , 27 jan</h3>
+                  <input type="date" name="" id="checkout"  />
+                  <i class="fa-solid fa-calendar-day"></i>
+                </div>
+                <button id="checkout_less">Less</button>
+                <button id="checkout_more">More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="map">
+      <div class="address_bx">
+        <div class="location_bx">
+          <h6>Location</h6>
+          <h4>Sharjah Home</h4>
+        </div>
+        <i class="fa-solid fa-expand"></i>
+      </div>
+      <iframe src="https://my.atlist.com/map/e9f38c4e-c17d-4bc5-ab5e-36095fcf24cf?share=true" allow="geolocation 'self' https://my.atlist.com" width="100%" height="400px" loading="lazy" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    </div>
+
+    <div class="home">
+      <div class="title_button">
+        <h2>Explore more houses</h2>
+        <button>See All <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+      <div class="home_bx">
+        <div class="card">
+          <img src="images/6.jpg" alt="">
+          <div class="content">
+            <i class="fa-regular fa-heart"></i>
+            <divt class="cont">
+              <h4>Dubai</h4>
+              <p>United Arb Emirates</p>
+            </divt>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/3.webp" alt="">
+          <div class="content">
+            <i class="fa-regular fa-heart"></i>
+            <divt class="cont">
+              <h4>Abu Dhabi</h4>
+              <p>United Arb Emirates</p>
+            </divt>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/5.jpg" alt="">
+          <div class="content">
+            <i class="fa-regular fa-heart"></i>
+            <divt class="cont">
+              <h4>Ras Al-khaimah</h4>
+              <p>United Arb Emirates</p>
+            </divt>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/7.jpg" alt="">
+          <div class="content">
+            <i class="fa-regular fa-heart"></i>
+            <divt class="cont">
+              <h4>Zayed City</h4>
+              <p>United Arb Emirates</p>
+            </divt>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/8.jpg" alt="">
+          <div class="content">
+            <i class="fa-regular fa-heart"></i>
+            <divt class="cont">
+              <h4>Dubai</h4>
+              <p>United Arb Emirates</p>
+            </divt>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <h2>Our Service</h2>
+      <div class="box">
+        <div class="img_bx">
+          <img src="images/9.jpg" alt="">
+        </div>
+        <div class="cont_bx">
+          <h6><span>OUR SERVICE</span></h6>
+          <h1>Comfort is our <br> Top Priority for you</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas totam laudantium ratione quasi et laborum veritatis amet sapiente. Dolore, placeat.</p>
+          <ul>
+            <li>Pramim natinal marketing</li>
+            <li>Manged viowing</li>
+            <li>Frco, no obligation valuation</li>
+            <li>Local area knowledge</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <h4><i class="fa-solid fa-house"></i> House</h4>
+
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
